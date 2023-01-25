@@ -1,0 +1,69 @@
+:root{
+    --white: #ffffff;
+    --lightgrey: #d6e2f0;
+    --grayishblue: #7b879d;
+    --darkblue: #1f3251;
+    --outfit: 'Outfit', sans-serif;
+}
+
+*{
+    font-family: var(--outfit);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color:var(--lightgrey);
+}
+
+.container{
+    width: 320px;
+    height: 500px;
+    margin: 100px auto auto;
+    background-color: var(--white);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+.image-container{
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.image-container img{
+    width: 290px;
+    height: 290px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.paragraph-container h1{
+    font-family: var(--outfit);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.paragraph-container p{
+    text-align: center;
+    font-family: var(--outfit);
+    color: var(--grayishblue);
+    padding: 20px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width: 325px) and(max-width:1440px) {
+    /*Still didn't master this responsive skill*/
+}
